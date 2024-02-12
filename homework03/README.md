@@ -1,4 +1,5 @@
 -- Create an external table from parquet file
+
 CREATE OR REPLACE EXTERNAL TABLE `terraform-demo-412717.nytaxi.nyc_external_green_taxi`
 OPTIONS (
   format = 'PARQUET',
